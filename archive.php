@@ -97,7 +97,6 @@ get_header(); ?>
 				
 
 
-
 					<div class="entry-img">
 						<?php the_post_thumbnail(); ?>
 					</div>
