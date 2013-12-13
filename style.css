@@ -405,7 +405,7 @@ textarea {
 	display: block;
 	float: right;
 	width: 50%;
-	height: 50px;
+	height: 20px;
 	background-size: 100%;
 }
 .navigation-main ul {
@@ -418,8 +418,9 @@ textarea {
 .navigation-main li {
 /*	float: right;*/
 	float: left;
-	width: 20%;
-	text-align: right;
+	width: 14%;
+	margin: 0 0 0 6%;
+	text-align: center;
 }
 .navigation-main a {
 	display: block;
@@ -427,6 +428,21 @@ textarea {
 	color: #ddd;
 	z-index: 2;
 	color: #777;
+}
+.navigation-main .film:hover {
+	border-bottom: 1px solid #c6e764;
+}
+.navigation-main .design:hover {
+	border-bottom: 1px solid #fd7522;
+}
+.navigation-main .art:hover {
+	border-bottom: 1px solid #1bacbb;
+}
+.navigation-main .photo:hover {
+	border-bottom: 1px solid #fc157a;
+}
+.navigation-main .home:hover {
+	border-bottom: 1px solid #d1d3d4;
 }
 												@media screen and (max-width: 650px) {
 													.navigation-main {
@@ -488,9 +504,9 @@ textarea {
 	box-shadow: 0px 0px 3px #A5AE1B;
 	outline: none;
 }
-#masthead input[type="submit"] {
+/*#masthead input[type="submit"] {
 	display: none;
-}
+}*/
 
 /*.back-home {
 	position: absolute;
@@ -681,7 +697,44 @@ textarea {
 	-ms-transition: fill 1s ease;
 	transition: fill 1s ease;
 }
+#mc_signup {
+	float: right;
+	width: 100%;
+}
+#mc_signup #mc_signup_form {
+	padding: 0;
+}
+.mc_merge_var {
+	width: 60%;
+	float: left;
+}
+.mc_signup_submit {
+	width: 35%;
+	float: right;
+}
+.mc_signup_submit #mc_signup_submit{
+	margin-top: 0;
+	font-size: 10px;
+	background: #cdcccd;
+}
+.mc_signup_submit input {
+	height: 27px;
+	padding: 0 0 0 0;
 
+}
+.mc_signup_submit #mc_signup_submit {
+	background: #fff;
+	border-radius: none;
+}
+.mc_merge_var .mc_var_label {
+	margin-bottom: 0;
+	display:none;
+}
+.mc_custom_border_hdr {
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
 /*.header-img {
 	width: 100%;
 	height: 160px;

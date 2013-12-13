@@ -19,6 +19,7 @@
 		<div class="footer-column">
 			<h2>CONTACT</h2>
 			<p>silvester(dot)alan(at)gmail(dot)com</p>
+			<?php mailchimpSF_signup_form(); ?>
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
