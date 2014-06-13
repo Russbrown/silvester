@@ -109,8 +109,6 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php silvester_content_nav( 'nav-below' ); ?>
-
 		<?php else : ?>
 
 			<?php get_template_part( 'no-results', 'archive' ); ?>
@@ -118,6 +116,8 @@ get_header(); ?>
 		<?php endif; ?>
 
 		</div><!-- #content -->
+
+				<?php silvester_content_nav( 'nav-below' ); ?>
 	</section><!-- #primary -->
 	
 <?php get_footer(); ?>
