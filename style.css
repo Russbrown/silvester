@@ -910,19 +910,20 @@ a:hover .entry-title {
 	color: #333;
 }
 .category-video .entry-label {
-	background: #c6e764;
+	background: #555;
+	color: #c6e764;
 }
 .category-photo .entry-label {
-	background: #fc157a;
-	color: #fff;
+	background: #555;
+	color: #fc157a;
 }
 .category-art .entry-label {
-	background: #1bacbb;
-	color: #fff;
+	background: #555;
+	color: #1bacbb;
 }
 .category-design .entry-label {
-	background: #fd7522;
-	color: #fff;
+	background: #777;
+	color: #fd7522;
 }
 												@media screen and (max-width: 430px) {
 													.post {
