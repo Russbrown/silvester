@@ -31,9 +31,6 @@ get_header(); ?>
 				<div class="entry-img">
 					<?php the_post_thumbnail(); ?>
 				</div>
-				<div class="entry-label">
-					<?php the_title(); ?>
-				</div>
 			</a>
 
 			</article>

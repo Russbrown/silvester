@@ -881,9 +881,31 @@ textarea {
 	height: 120px;
 	overflow: hidden;
 }
-.post .entry-img img:hover {
-	opacity: 0.2;
+.category-video .entry-img:hover {
+	background: #c6e764;
+	opacity: 1;
+	z-index: 1;
 }
+.category-photo .entry-img:hover {
+	background: #fc157a;
+	opacity: 1;
+	z-index: 1;
+}
+.category-art .entry-img:hover {
+	background: #1bacbb;
+	opacity: 1;
+	z-index: 1;
+}
+.category-design .entry-img:hover {
+	background: #fd7522;
+	opacity: 1;
+	z-index: 1;
+}
+.entry-img:hover img {
+	z-index: 0;
+	opacity: 0.3;
+}
+
 a:hover .entry-caption,
 a:hover .entry-title {
 	display: block;
