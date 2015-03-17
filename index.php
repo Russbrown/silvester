@@ -14,7 +14,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+		<div id="content" class="site-content home-content" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -23,15 +23,12 @@ get_header(); ?>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-			<a href="<?php the_permalink(); ?>">
+				<a href="<?php the_permalink(); ?>">
 
-
-
-
-				<div class="entry-img">
-					<?php the_post_thumbnail(); ?>
-				</div>
-			</a>
+					<div class="entry-img">
+						<?php the_post_thumbnail(); ?>
+					</div>
+				</a>
 
 			</article>
 

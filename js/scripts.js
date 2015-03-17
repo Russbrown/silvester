@@ -1,21 +1,4 @@
 
-// Masonry script
-$(window).load ( function(){
-	 $(function(){
-	  $('#content').masonry({
-	    // options
-	    itemSelector : '.post',
-	    columnWidth : 310,
-	    gutterWidth: 12
-
-	  });
-	});	
-
-
-
-
-});
-
 $(document).ready(function() {
 	$('.navigation-main li:first-child').hover( function() {
 		$('.header-img').attr('class', 'header-img');
