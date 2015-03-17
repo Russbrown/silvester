@@ -437,6 +437,7 @@ textarea {
 	clear:both;
 	width: 100%;
 	padding-left: 10px;
+	padding-top: 10px;
 }
 #nav-below .previous {
 	float: left;
@@ -507,20 +508,20 @@ textarea {
 /* =Content
 ----------------------------------------------- */
 
-.home-content .post {
+.post {
 	width: 33.33%;
 	float: left;
 	padding: 10px 1%;	
 }
 
 												@media screen and (max-width: 700px) {
-													.home-content .post {
+													.post {
 														width: 50%;
 													}
 												}
 
 												@media screen and (max-width: 500px) {
-													.home-content .post {
+													.post {
 														width: 100%;
 													}
 												}
@@ -537,7 +538,7 @@ textarea {
 	z-index: 0;
 	opacity: 0.2;
 }
-.home-content .entry-img img {
+.entry-img img {
 	width: 100%;
 }
 
@@ -650,6 +651,13 @@ object {
 	width: 50%;
 }
 
+/* =Shop
+----------------------------------------------- */
+
+.page .entry-title {
+	padding: 10px;
+	font-size: 2em;
+}
 
 /* =Footer
 ----------------------------------------------- */
@@ -681,6 +689,11 @@ footer {
 .footer-column p {
 	margin-bottom: 0;
 	color: #89876D;
+}
+
+.footer-column p a {
+	color: #89876D;
+	text-decoration: underline;
 }
 										@media screen and (max-width: 850px) {
 											footer .footer-column:last-child {
